@@ -13,17 +13,15 @@ npm install --save to-hex-color-code
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import toHexColorCode from 'to-hex-color-code'
 
-import MyComponent from 'to-hex-color-code'
+toHexColorCode('ABC');      // output: #AABBCC
+toHexColorCode('ABCABC');   // output: #ABCABC
+toHexColorCode('INVALID');  // output:
 
-class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
-  }
-}
+toHexColorCode('#ABC');     // output: #AABBCC
+toHexColorCode('#ABCABC');  // output: #ABCABC
+toHexColorCode('#INVALID'); // output:
 ```
 
 ## License

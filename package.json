@@ -1,6 +1,6 @@
 {
   "name": "to-hex-color-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert a string to a six character hexadecimal color code.",
   "author": "LSVH",
   "license": "MIT",
